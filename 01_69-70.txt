@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE pgml SYSTEM "/DTDs/pgml.dtd">
+<pgml>
+   <group fillcolor="blue">
+        <path>
+            <moveto x="0" y="0"/>
+            <lineto x="0" y="1000"/>
+            <lineto x="1000" y="1000"/>
+            <lineto x="1000" y="0"/>
+            <closepath/>
+        </path>
+    </group>
+</pgml>

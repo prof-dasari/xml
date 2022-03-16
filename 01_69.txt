@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<CHANNEL HREF="http://www.superdupersoft.com/updates.html">
+    <TITLE>
+        SuperDuperTextPro Updates
+    </TITLE>
+    <USAGE VALUE="SoftwareUpdate"/>
+    <SOFTPKG
+        HREF="http://updates.superdupersoft.com/updates.html"
+        NAME="{34567A7E-8BE7-99C0-8746-0034829873A3}"
+        VERSION="2,4,6">
+        <TITLE>
+             SuperDuperTextPro
+        </TITLE>
+        <ABSTRACT>
+            SuperDuperTextPro version 206 with sideburns!!!
+        </ABSTRACT>
+        <IMPLEMENTATION>
+        <CODEBASE HREF=
+            "http://www.superdupersoft.com/new.exe"/>
+        </IMPLEMENTATION>
+    </SOFTPKG>
+</CHANNEL>

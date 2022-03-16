@@ -1,0 +1,37 @@
+Листинг 1.8. ch01_08.htm
+<HTML>
+  <HEAD>
+    <TITLE>
+      Finding Element Values in a XML Document
+    </TITLE>
+
+    <XML ID="firstXML" SRC="ch01_02.xml"></XML>
+
+    <SCRIPT LANGUAGE="JavaScript">
+      function getData()
+      {
+        xmldoc= document.all("firstXML").XMLDocument;
+
+        nodeDoc = xmldoc.documentElement;
+        nodeGreeting = nodeDoc.firstChild;
+
+        outputMessage = "Greeting: " +
+                nodeGreeting.firstChild.nodeValue;
+        message.innerHTML=outputMessage;
+      }
+    </SCRIPT>
+  </HEAD>
+
+  <BODY>
+    <CENTER>
+      <H1>
+        Finding Element Values in a XML Document
+      </H1>
+
+      <DIV ID="message"></DIV>
+      <P>
+      <INPUT TYPE="BUTTON" VALUE="Get The Greeting"
+        ONCLICK="getData()">
+    </CENTER>
+  </BODY>
+</HTML>

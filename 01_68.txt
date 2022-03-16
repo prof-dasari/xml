@@ -1,0 +1,13 @@
+  <city>Menlo Park</city>
+        <state>CA</state>
+        <zip>94025</zip>
+        <contract>true</contract>
+    </authors>
+    <authors>
+        <au_id>213-46-8915</au_id>
+        <au_lname>Green</au_lname>
+        <au_fname>Marjorie</au_fname>
+        <phone>415 986-7020</phone>
+    .
+    .
+    .

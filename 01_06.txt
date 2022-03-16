@@ -1,0 +1,20 @@
+Листинг 1.6. ch01_06.xml
+<?xml version="1.0"?>
+<SCHOOL>
+  <CLASS type="seminar">
+    <CLASS_TITLE>XML In The Real World</CLASS_TITLE>
+    <CLASS_NUMBER>6.031</CLASS_NUMBER>
+    <SUBJECT>XML</SUBJECT>
+    <START_DATE>6/1/2002</START_DATE>
+    <STUDENTS>
+       <STUDENT status="attending">
+         <FIRST_NAME>Edward</FIRST_NAME>
+         <LAST_NAME>Samson</LAST_NAME>
+       </STUDENT>
+       <STUDENT status="withdrawn">
+         <FIRST_NAME>Ernestine</FIRST_NAME>
+         <LAST_NAME>Johnson</LAST_NAME>
+       </STUDENT>
+    </STUDENTS>
+  </CLASS>
+</SCHOOL>

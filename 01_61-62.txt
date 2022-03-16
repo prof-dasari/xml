@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<html xmlns:m="http://www.w3.org/TR/REC-MathML/">
+<math>
+    <m:mrow>
+        <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mo>&InvisibleTimes;</m:mo>
+            <m:msup>
+                <m:mi>Z</m:mi>
+                <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>&InvisibleTimes;</m:mo>
+                <m:mi>Z</m:mi>
+            </m:mrow>
+            <m:mo>+</m:mo>
+            <m:mn>12</m:mn>
+        </m:mrow>
+        <m:mo>=</m:mo>
+        <m:mn>0</m:mn>
+    </m:mrow>
+</math>

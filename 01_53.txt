@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DOCUMENT [
+    <!ELEMENT DOCUMENT (GREETING, MESSAGE)>
+    <!ELEMENT GREETING (#PCDATA)>
+    <!ELEMENT MESSAGE (#PCDATA)>
+]>
+<DOCUMENT>
+    <GREETING>
+        Hello From XML
+    <MESSAGE>
+    </GREETING>
+        Welcome to the wild and wooly world of XML.
+    </MESSAGE>
+</DOCUMENT>

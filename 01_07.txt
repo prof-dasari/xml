@@ -1,0 +1,17 @@
+Листинг 1.7. ch01_07.htm
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="first.css"?>
+<!DOCTYPE DOCUMENT [
+  <!ELEMENT DOCUMENT (GREETING, MESSAGE)>
+  <!ELEMENT GREETING (#PCDATA)>
+  <!ELEMENT MESSAGE (#PCDATA)>
+]>
+<DOCUMENT>
+  <GREETING>
+    Hello From XML
+  </GREETING>
+  <MESSAGE>
+    Welcome to the wild and woolly world XML.
+  </MESSAGE>
+</DOCUMENT>
+

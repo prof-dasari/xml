@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN"
+    "http://www.w3.org/TR/REC-smil/SMIL10.dtd">
+<smil>
+    <body>
+        <seq id="mozart">
+            <audio src="mozart1.wav"/>
+            <video src="amadeus1.mov"/>
+            <text src="mozart1.htm"/>
+            <audio src="mozart2.wav"/>
+            <video src="amadeus2.mov"/>
+            <text src="mozart2.htm"/>
+        </seq>
+    </body>
+</smil>

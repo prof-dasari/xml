@@ -1,0 +1,29 @@
+Ëèñòèíã 1.12. ch01_12.htm
+<HTML xmlns:v="urn:schemas-microsoft-com:vml">
+    <HEAD>
+        <TITLE>
+            Using Vector Markup Language
+        </TITLE>
+        <STYLE>
+         v\:* {behavior: url(#default#VML);}
+        </STYLE>
+    </HEAD>
+
+    <BODY>
+        <CENTER>
+            <H1>
+                Using Vector Markup Language
+            </H1>
+        </CENTER>
+        <P>
+        <v:oval STYLE=’width:100pt; height:75pt’
+            fillcolor="yellow"> </v:oval>
+        <P>
+            <v:rect STYLE=’width:100pt; height:75pt’ fillcolor="blue"
+            strokecolor="red" STROKEWEIGHT="2pt"/>
+        <P>
+        <v:polyline
+            POINTS="20pt,55pt,100pt,-10pt,180pt,65pt,260pt,25pt"
+            strokecolor="red" STROKEWEIGHT="2pt"/>
+    </BODY>
+</HTML>

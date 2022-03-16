@@ -1,0 +1,40 @@
+Листинг 1.9. ch01_09.java
+import javax.xml.parsers.*;
+import org.w3c.dom.*;
+import java.io.*;
+
+public class ch01_09
+{
+  static public void main(String[] argv)
+  {
+  try {
+    DocumentBuilderFactory dbf =
+       DocumentBuilderFactory.newInstance();
+  DocumentBuilder db = null;
+  try {
+      db = dbf.newDocumentBuilder();
+  }
+  catch (ParserConfigurationException pce) {}
+  Document doc = null;
+       doc = db.parse("ch01_02.xml");
+       for (Node node = doc.getDocumentElement().getFirstChild();
+       node != null; node = node.getNextSibling()) {
+if (node instanceof Element) {
+if (node.getNodeName().equals("GREETING")) {
+StringBuffer buffer = new StringBuffer();
+for (Node subnode = node.getFirstChild();
+subnode != null; subnode =
+subnode.getNextSibling()){
+if (subnode instanceof Text) {
+buffer.append(subnode.getNodeValue());
+}
+						}
+						System.out.println(buffer.toString());
+					}
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

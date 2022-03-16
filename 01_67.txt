@@ -1,0 +1,13 @@
+Private Sub Button1_Click(ByVal sender As System.Object, _
+    ByVal e As System.EventArgs) Handles Button1.Click
+    DataSet11.Clear()
+    OleDbDataAdapter1.Fill(DataSet11)
+    DataSet11.WriteXml("dataset.xml")
+End Sub
+
+Private Sub Button2_Click(ByVal sender As System.Object, _
+    ByVal e As System.EventArgs) Handles Button2.Click
+    Dim ds As New DataSet()
+    ds.ReadXml("dataset.xml")
+    DataGrid1.SetDataBinding(ds, "authors")
+End Sub
