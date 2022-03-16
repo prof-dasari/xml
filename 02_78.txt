@@ -1,0 +1,19 @@
+<?xml version = "1.0" standalone="yes"?>
+<DOCUMENT>
+    <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+    <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+     <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+</DOCUMENT>
+

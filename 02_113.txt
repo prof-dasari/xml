@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+    xmlns:m="http://www.w3.org/1998/Math/MathML/">
+    <head>
+        <title>
+            Embedding MathML In XHTML
+        </title>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Embedding MathML In XHTML
+            </h1>
+        </center>
+        Here’s the MathML:
+    </body>
+</html>

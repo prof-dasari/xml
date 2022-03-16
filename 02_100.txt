@@ -1,0 +1,19 @@
+<?xml version = "1.0" standalone="yes"?>
+<BOOKS>
+    <BOOK>
+        <TITLE>
+            Inside XML
+        </TITLE>
+        <REVIEW>
+            Excellent
+        </REVIEW>
+    </BOOK>
+    <BOOK>
+        <TITLE>
+            Other XML Book
+        <TITLE>
+        <REVIEW>
+            OK
+        </REVIEW>
+    </BOOK>
+</BOOKS>

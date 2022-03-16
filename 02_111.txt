@@ -1,0 +1,13 @@
+<book:library
+    xmlns:book="http://www.amazingterrificbooks.com/spec">
+    <book:book>
+        <book:title>
+            Earthquakes for Lunch.
+        </book:title>
+        <steve:review
+        xmlns:steve=http://www.starpowder.com/steve
+        steve:ID="1000034">
+            This book was OK, no great shakes.
+        </steve:review>
+    </book:book>
+</book:library>

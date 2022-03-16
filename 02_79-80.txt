@@ -1,0 +1,28 @@
+<?xml version = "1.0" standalone="yes"?>
+<DOCUMENT>
+    <CUSTOMER>
+        <NAME>
+            <LAST_NAME>Smith</LAST_NAME>
+            <FIRST_NAME>Sam</FIRST_NAME>
+        </NAME>
+        <DATE>October 15, 2003</DATE>
+        <ORDERS>
+    .
+    .
+    .
+        </ORDERS>
+    .
+    .
+    .
+    </CUSTOMER>
+    <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+  <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+</DOCUMENT>

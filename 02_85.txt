@@ -1,0 +1,24 @@
+<?xml version = "1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="greeting.css"?>
+<!DOCTYPE DOCUMENT [
+<!ELEMENT DOCUMENT (CUSTOMER)*>
+<!ELEMENT CUSTOMER (NAME,DATE,ORDERS)>
+<!ELEMENT NAME (LAST_NAME,FIRST_NAME)>
+<!ELEMENT LAST_NAME (#PCDATA)>
+<!ELEMENT FIRST_NAME (#PCDATA)>
+<!ELEMENT DATE (#PCDATA)>
+<!ELEMENT ORDERS (ITEM)*>
+<!ELEMENT ITEM (PRODUCT,NUMBER,PRICE)>
+<!ELEMENT PRODUCT (#PCDATA)>
+<!ELEMENT NUMBER (#PCDATA)>
+<!ELEMENT PRICE (#PCDATA)>
+]>
+<DOCUMENT>
+    <CUSTOMER>
+        <NAME>
+            <LAST_NAME>Smith</LAST_NAME>
+            <FIRST_NAME>Sam</FIRST_NAME>
+        </NAME>
+    .
+    .
+    .

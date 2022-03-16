@@ -1,0 +1,22 @@
+<?xml version = "1.0" standalone="yes"?>
+<DOCUMENT>
+    <CUSTOMER>
+        <NAME>
+            <LAST_NAME>Smith</LAST_NAME>
+            <FIRST_NAME>Sam</FIRST_NAME>
+        </NAME>
+    .
+    .
+    .
+    </CUSTOMER>
+    <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+    <CUSTOMER>
+    .
+    .
+    .
+    </CUSTOMER>
+</DOCUMENT>
